@@ -13,7 +13,7 @@ a {
     color: #333;
     text-decoration: none;
 }
-h1, h2 {
+h1, h2, h3 {
     padding-bottom: 20px;
 }
 
@@ -50,6 +50,16 @@ h1, h2 {
     background: #333;
     color: #fff;
 }
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
 
 /* navbar */
 #navbar {
@@ -121,4 +131,26 @@ h1, h2 {
     width: 50%;
     background: url('../img/photo-1.jpg') no-repeat;
     min-height: 100%;
+}
+
+/* features */
+#features .box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+#features .box i {
+    margin-bottom: 10px;
+}
+/* footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #444;
+    color: #fff;
+}
+/* clear */
+.clear {
+    clear: both;
 }
