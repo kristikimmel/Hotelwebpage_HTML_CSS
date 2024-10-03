@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/0702754fa5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="mobile.css">
     <title>Hotell / Kontakt</title>
 </head>
 <body>
@@ -21,6 +22,46 @@
             </div>
         </nav>
     </header>
+    <!-- contact form -->
+     <section id="contact-form" class="py-30">
+        <div class="container">
+            <h1>Võta <span class="text-primary">ühendust</span> meiega</h1>
+            <p>Palun täida all olev vorm</p>
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Nimi</label>
+                    <input type="text" id="name">trenni võimalused
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Sõnum</label>
+                    <textarea id="message"></textarea>
+                </div>
+                <button type="submit" class="btn">Saada</button>
+            </form>
+        </div>
+     </section>
+    <!-- contact info -->
+     <section id="contact-info" class="bg-dark container">
+            <div class="box bg-dark">
+                <i class="fa-solid fa-hotel fa-3x" aria-hidden="true" aria-label="Hotel location"></i>
+                <h3>Aadress</h3>
+                <p>Kopli 1A, Tartu</p>
+            </div>
+            <div class="box bg-dark">
+                <i class="fa-solid fa-phone-flip fa-3x" aria-hidden="true" aria-label="Phone number"></i>
+                <h3>Telefon</h3>
+                <p>5555 5555</p>
+            </div>
+            <div class="box bg-dark">
+                <i class="fa-solid fa-envelope fa-3x" aria-hidden="true" aria-label="Send us"></i>
+                <h3>Email</h3>
+                <p>info@voco.ee</p>
+            </div>
+     </section>
 
     <div class="clear"></div>
     <footer>
