@@ -156,12 +156,20 @@ h1, h2, h3 {
 }
 
 /* features */
+#features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
 #features .box {
     float: left;
     width: 33.3%;
     padding: 50px;
     text-align: center;
+    box-sizing: border-box;
 }
+
 
 #features .box i {
     margin-bottom: 10px;
