@@ -270,7 +270,7 @@ footer {
 /* testimonials */
 #testimonials {
     height: 600px;
-    background-image: url("../img/test-bg.jpg");
+    background-image: url("./img/test-bg.jpg");
     background-size: cover;
     background-position: center;
 }
